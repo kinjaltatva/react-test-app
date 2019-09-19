@@ -17,7 +17,6 @@
   -moz-box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
   -webkit-box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
   box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
-  padding: 30px;
   margin-bottom: 30px;
   border: 1px solid #e7e7e7;
 }
@@ -49,4 +48,15 @@
 }
 .delete-icon{
   margin-left: 10px;
+}
+.add-category-modal .modal-content{
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}
+.add-category-body {  
+  display: -webkit-box;  
+  display: -webkit-flex;  
+  display: -ms-flexbox;  
+  display: flex;
 }

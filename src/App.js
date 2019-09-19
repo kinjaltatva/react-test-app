@@ -1,7 +1,8 @@
 import React from 'react';
-// import logo from './logo.svg';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import HomePage from './components/HomePage'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'sweetalert/dist/sweetalert.css'
 import './App.css';
 
 function App() {
