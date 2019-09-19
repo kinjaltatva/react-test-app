@@ -51,7 +51,6 @@ export default class AddQuestionPopup extends Component {
   editQuestion(questions) {
     var self = this;
     const { question, team_stage, appear, frequency, question_type, conditions  } = questions;
-
     self.setState({
       questionForm: {
         question: question,
@@ -59,7 +58,9 @@ export default class AddQuestionPopup extends Component {
         appear: appear,
         frequency: frequency,
         question_type: question_type,
-        conditions: conditions
+        conditions: conditions,
+        role_option: self.roleOptions([questions.role]),
+        mapping_option: self.mappingOptions([questions.mapping])
       }
     });
   }
